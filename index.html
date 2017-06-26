@@ -133,7 +133,10 @@ article [itemprop="description"] {
 
     </style>
   <script type="text/javascript">
-
+      function test() {
+        $.run("test.php");
+        return false;
+      }
   </script>  
     
   </head>
@@ -142,13 +145,13 @@ article [itemprop="description"] {
 
       <main>
           <header>
-                <a href="file:///C:/Hugo/bin/tradicious.com/public/index.html">
+                <a href="file:///C:/Hugo/bin/tradicious.com/index.html">
                 <img style="padding: 0px; margin-top: 20px;" src="trad.png" width="85%" height="38%"> </img></a><hr>
                 <p> Check-In </p>
                 <div class="checkbox">
                     <a target="_blank" href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fevents%2F205278016654061%2F">
                     <img src="fb.png" width="65" height="65"></a><p> -OR- </p>
-                    <a href="file:///C:/Hugo/bin/tradicious.com/public/email.html">
+                    <a href="" onclick="test()";>
                     <img src="email.png" width="70" height="55"></a>
                     
 
