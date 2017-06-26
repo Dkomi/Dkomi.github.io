@@ -1,0 +1,4 @@
+baseURL = "Dkomi.github.io"
+languageCode = "en-us"
+title = "Tradicious"
+publishDir = "docs"
